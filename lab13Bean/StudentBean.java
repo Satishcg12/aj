@@ -1,4 +1,4 @@
-package bean;
+package lab13Bean;
 
 public class StudentBean {
   private String name;
