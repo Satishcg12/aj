@@ -1,4 +1,4 @@
-package RMI;
+package lab8;
 import java.io.*;
 
 // A simple Serializable class
@@ -21,9 +21,9 @@ public class MarshalUnmarshalExample {
   public static void main(String[] args) {
     try {
       // STEP 1: Marshaling (Object → Bytes)
-      Student student1 = new Student("Ram", 101);
+      Student student1 = new Student("Satish Chaudhary", 30);
 
-      ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("student.ser"));
+      ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("./student.ser"));
       out.writeObject(student1); // marshaling here
       out.close();
 
@@ -31,7 +31,7 @@ public class MarshalUnmarshalExample {
       System.out.println("Student object marshaled (saved).");
 
       // STEP 2: Unmarshaling (Bytes → Object)
-      ObjectInputStream in = new ObjectInputStream(new FileInputStream("student.ser"));
+      ObjectInputStream in = new ObjectInputStream(new FileInputStream("./student.ser"));
       Student student2 = (Student) in.readObject(); // unmarshaling here
       in.close();
 

@@ -1,4 +1,4 @@
-package MVC;
+package lab14;
 
 import javax.swing.*;
 

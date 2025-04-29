@@ -1,4 +1,4 @@
-package RMI;
+package lab7;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

@@ -1,4 +1,4 @@
-package MVC;
+package lab14;
 
 public class StudentController {
   private StudentModel model;

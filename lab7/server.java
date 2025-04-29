@@ -1,4 +1,4 @@
-package RMI;
+package lab7;
 
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;

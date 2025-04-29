@@ -1,4 +1,4 @@
-package MVC;
+package lab14;
 
 public class StudentModel {
   private String name;

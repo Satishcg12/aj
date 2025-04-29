@@ -1,4 +1,4 @@
-package RMI;
+package lab7;
 import java.rmi.server.UnicastRemoteObject;
 import java.rmi.RemoteException;
 

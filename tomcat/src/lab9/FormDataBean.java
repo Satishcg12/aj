@@ -1,4 +1,5 @@
-package lab9;
+package tomcat.src.lab9;
+
 
 // File: FormDataBean.java
 public class FormDataBean {
